@@ -12,4 +12,10 @@ interface Api {
         @Query("page") page: Int
     ): Call<GetMoviesResponse>
 
+    @GET("movie/top_rated")
+    fun getTopRatedMovies(
+        @Query("api_key") apiKey: String = "1fa29a6f72e1db0fb3b2ff7eb5581fbe",
+        @Query("page") page: Int
+    ): Call<GetMoviesResponse>
+
 }
