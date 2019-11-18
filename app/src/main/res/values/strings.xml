@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Peliculas</string>
+    <string name="popular">Popular</string>
+    <string name="most_popular_movies">Más pupulares</string>
+    <string name="error_fetch_movies">Por favor verifique su conexión a internet</string>
+    <string name="top_rated">Top </string>
+    <string name="highest_rated_movies">Películas mejor calificadas</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="stay_updated">Ultimas películas</string>
 </resources>
